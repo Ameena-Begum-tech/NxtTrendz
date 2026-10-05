@@ -9,5 +9,5 @@ urlpatterns = [
     path('add/', AddToCartView.as_view(), name='cart-add'),
     # PATCH   /api/cart/items/<id>/      {"quantity": 3}
     # DELETE  /api/cart/items/<id>/
-    path('items/<int:pk>/', CartItemDetailView.as_view(), name='cart-item'),
+    path('items/', CartItemDetailView.as_view(), name='cart-item'),
 ]
