@@ -36,6 +36,7 @@ CSRF_TRUSTED_ORIGINS = [
 # Tell the browser which origins are allowed to read our responses (CORS).
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
+    "http://13.204.108.71:3000"
 ]
 
 
