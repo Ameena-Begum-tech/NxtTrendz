@@ -4,6 +4,7 @@ pipeline {
         DOCKER_ID  = 'ameena99'
         BACKEND    = "${DOCKER_ID}/nxttrendz-backend"
         FRONTEND   = "${DOCKER_ID}/nxttrendz-frontend"
+        EC2_HOST="13.204.108.71"
     }
     stages {
         stage('Checkout') { steps { git branch: 'main', url: 'https://github.com/Ameena-Begum-tech/NxtTrendz' } }
